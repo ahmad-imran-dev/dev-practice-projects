@@ -1,0 +1,11 @@
+{
+  "server-port": 5000,
+  "client-url": "http://localhost:3000",
+  "cookie-options": {
+    "path": "/",
+    "httpOnly": true,
+    "secure": false,
+    "sameSite": "Lax",
+    "signed": true
+  }
+}

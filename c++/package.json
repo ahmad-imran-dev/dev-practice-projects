@@ -1,0 +1,12 @@
+{
+  "name": "auto-compiler",
+  "version": "1.0.0",
+  "description": "Auto-compile C++ files on change",
+  "scripts": {
+    "watch": "npx nodemon --exec \"g++ -std=c++23 -o output main.cpp && ./output\" --ext cpp,h --ignore output",
+    "start": "g++ -std=c++23 -o output main.cpp && ./output"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
